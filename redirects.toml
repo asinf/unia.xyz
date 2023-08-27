@@ -140,6 +140,7 @@ source = "/la1"
 target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=d6f54d7bcafd8528dab6c61dfea95197"
 link = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=7a6962baafd363f26786ee5fd6b01813"
 
+
 [[section]]
 title = "2. Semester"
 [[section.link]]
@@ -318,3 +319,5 @@ target = "https://forms.gle/NZbYzEsBJ6aJf5Hh8"
 desc = "Anmeldung Pubquiz"
 source = "/pubquiz"
 target = "https://docs.google.com/forms/d/e/1FAIpQLSe8640ciO2pfSzE6M2YUtwBXXSwUNvamvFvYpNisMTHQ_R0OQ/viewform?usp=sf_link"
+
+
