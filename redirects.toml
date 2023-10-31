@@ -21,6 +21,11 @@ source = "/vibs"
 target = "https://vibs.uni-augsburg.de"
 
 [[section.link]]
+desc = "Webmail"
+source = "/webmail"
+target = "https://webmail.uni-augsburg.de/"
+
+[[section.link]]
 desc = "VPN"
 source = "/vpn"
 target = "https://confluence.rz.uni-augsburg.de/x/GIIo"
