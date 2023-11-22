@@ -81,11 +81,6 @@ source = "/discord"
 target = "https://discord.gg/SRYedBz"
 
 [[section.link]]
-desc = "MakeHub"
-source = "/makehub"
-target = "https://www.uni-augsburg.de/de/organisation/einrichtungen/makehub/"
-
-[[section.link]]
 desc = "MakeHub Kalender"
 source = "/makehub-kal"
 target = "https://makehub-cal.uni-augsburg.de/Web"
