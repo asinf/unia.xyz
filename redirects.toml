@@ -110,6 +110,7 @@ desc = "Beratungsangebote"
 source = "/beratung"
 target = "https://www.uni-augsburg.de/de/studium/organisation-beratung/beratung/"
 
+
 [[section]]
 title = "1. Semester"
 [[section.link]]
@@ -130,7 +131,7 @@ target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=
 [[section.link]]
 desc = "Programmierkurs"
 source = "/prog"
-target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=0ee7549de5d0952ca3cf319f327fb3ad"
+target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=fe369e98f8717407cac69a6878291e99"
 link = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=3c0108874173b54b7d38a7278db393c6"
 
 [[section.link]]
@@ -146,7 +147,7 @@ target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=
 [[section.link]]
 desc = "Lineare Algebra I"
 source = "/la1"
-target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=08e3508ff9ed1d6c0a0787f4181765ab"
+target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=d90e93ac8801f6e0f8d71d3c97adce8e"
 link = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=7a6962baafd363f26786ee5fd6b01813"
 
 
@@ -155,25 +156,25 @@ title = "2. Semester"
 [[section.link]]
 desc = "Informatik 2"
 source = "/info2"
-target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=27109f15584353149791b88f594776b1"
+target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=fbd22d77371804f13b3535cc2b441683"
 link = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=e48ce3c01e6fdc46665ef324116ee4fb"
 
 [[section.link]]
 desc = "Mathematik für Informatiker II"
 source = "/mfi2"
-target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=0469514bfee92ec85f93c64a0a95c874"
+target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=d69ae7bd9174d0217424387302b190e8"
 link = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=4edb5ac81536bc53949739f602db15a5"
 
 [[section.link]]
 desc = "Einführung in die Theoretische Informatik"
 source = "/ti"
-target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=5552ab06b587d6706260324844777573"
+target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=681425c7c8957a32c34489ad386c8700"
 link = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=9c00aff4376e6e6cf7b93f315b7c56d0"
 
 [[section.link]]
 desc = "Analysis I"
 source = "/ana1"
-target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=879d388130f09532be57a514811fedd8"
+target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=54bb6adf47e2097662d9e0eeead6277a"
 
 
 [[section]]
@@ -199,19 +200,19 @@ title = "4. Semester"
 [[section.link]]
 desc = "Systemnahe Informatik"
 source = "/si"
-target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=474eb940c68e76b66bf6fe4e040a275c"
+target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=87178b102087f74d89a083e631a70938"
 link = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=dcface4ecfa9134ee078fe852591cb49"
 
 [[section.link]]
 desc = "Softwareprojekt"
 source = "/sopro"
-target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=6ad5ab2276435b1917c9496dd2141aa1"
+target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=642fe1eeaff1e4369dd544f37d3f7ef9"
 link = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=17d0d4d40882454657836b4999bb1dd7"
 
 [[section.link]]
 desc = "Grundlagen der Human-Computer-Interaction / Multimedia Grundlagen II"
 source = "/ghci"
-target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=877b10e44d3dc61bd4055b2d5adbba5d"
+target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=65514e5f51a949d7bda694c9a841e2a9"
 link = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=22de509345a969f74ea16ce65a448476"
 
 
@@ -348,3 +349,5 @@ target = "https://forms.gle/mUhLXwqiBvK1Bgn37"
 desc = "Turnierbaum Neujahrs Cup"
 source = "/turnierbaum"
 target = "https://docs.google.com/spreadsheets/d/1_Tvut4r72UvAYPkp8EOUhyw6COMgaZPmJxx9CU3xaN8/edit?usp=sharing"
+
+
