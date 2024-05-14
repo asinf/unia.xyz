@@ -339,15 +339,3 @@ target = "https://forms.gle/PJtKapRgZiLdYVYe8"
 desc = "Anmeldung Pubquiz"
 source = "/pubquiz"
 target = "https://docs.google.com/forms/d/e/1FAIpQLSe8640ciO2pfSzE6M2YUtwBXXSwUNvamvFvYpNisMTHQ_R0OQ/viewform?usp=sf_link"
-
-[[section.link]]
-desc = "Neujahrs Cup"
-source = "/mariokart"
-target = "https://forms.gle/mUhLXwqiBvK1Bgn37"
-
-[[section.link]]
-desc = "Turnierbaum Neujahrs Cup"
-source = "/turnierbaum"
-target = "https://docs.google.com/spreadsheets/d/1_Tvut4r72UvAYPkp8EOUhyw6COMgaZPmJxx9CU3xaN8/edit?usp=sharing"
-
-
