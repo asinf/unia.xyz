@@ -28,7 +28,7 @@ target = "https://confluence.rz.uni-augsburg.de/display/RZSER/Nutzung+von+eduroa
 [[section.link]]
 desc = "Fachschaft Informatik"
 source = "/fs"
-target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/studienanfanger/studierendenvertretung-informatik"
+target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/studierendenvertretung/"
 
 [[section.link]]
 desc = "Fachschaft Mathematik"
@@ -38,12 +38,12 @@ target = "https://www.uni-augsburg.de/de/fakultaet/mntf/math/fachschaft/"
 [[section.link]]
 desc = "Klausurtermine"
 source = "/klausurtermine"
-target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/studium/klausurtermine-informatik/"
+target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/im-studium/klausurtermine/"
 
 [[section.link]]
 desc = "Altklausuren"
 source = "/altklausuren"
-target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/studienanfanger/studierendenvertretung-informatik/altklausuren/"
+target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/studierendenvertretung/altklausuren/"
 
 [[section.link]]
 desc = "Prüfungsamt"
@@ -83,7 +83,7 @@ target = "https://www.uni-augsburg.de/de/studium/organisation-beratung/organisat
 [[section.link]]
 desc = "Stundenpläne, Lehrveranstaltungen und Module"
 source = "/lehrveranstaltungen"
-target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/studium/lehre/"
+target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/im-studium/lehre/"
 
 [[section.link]]
 desc = "Fristen und Termine, Vorlesungszeiten, Vorlesungsfreie Tage"
@@ -106,12 +106,12 @@ title = "1. Semester"
 [[section.link]]
 desc = "Informationen für Erstsemester"
 source = "/ersti"
-target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/studienanfanger/"
+target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/im-studium/studienanfanger/"
 
 [[section.link]]
 desc = "Informationen zu Vor-/Brückenkursen"
 source = "/vorkurs"
-target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/studienanfanger/vorkurs/"
+target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/im-studium/vorkurs/"
 
 [[section.link]]
 desc = "Informatik 1"
