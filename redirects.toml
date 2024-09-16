@@ -336,11 +336,6 @@ source = "/kneipentour"
 target = "https://forms.gle/PJtKapRgZiLdYVYe8"
 
 [[section.link]]
-desc = "Anmeldung Scotland Yard"
-source = "/scotlandyard"
-target = "https://forms.gle/LUKgbyG4i5tG1jBg6"
-
-[[section.link]]
 desc = "Anmeldung Pubquiz"
 source = "/pubquiz"
 target = "https://docs.google.com/forms/d/e/1FAIpQLSe8640ciO2pfSzE6M2YUtwBXXSwUNvamvFvYpNisMTHQ_R0OQ/viewform?usp=sf_link"
