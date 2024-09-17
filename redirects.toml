@@ -235,9 +235,6 @@ target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=
 
 
 [[section]]
-title = "Wahlbereich"
-
-[[section]]
 title = "Modulhandbuch"
 [[section.link]]
 desc = "Informatik"
@@ -335,7 +332,7 @@ desc = "Anmeldung Kneipentour"
 source = "/kneipentour"
 target = "https://forms.gle/LUKgbyG4i5tG1jBg6"
 
-[[section.link]]
-desc = "Anmeldung Pubquiz"
-source = "/pubquiz"
-target = "https://docs.google.com/forms/d/e/1FAIpQLSe8640ciO2pfSzE6M2YUtwBXXSwUNvamvFvYpNisMTHQ_R0OQ/viewform?usp=sf_link"
+[[section-link]]
+desc = "Anmeldung Scotland Yard"
+source = "/scotlandyard"
+target = "https://docs.google.com/forms/d/e/1FAIpQLSdkkBrGhm5KtxecwyDELp-JQE78_Pon9D8jZgHMp4n2ku9GtA/viewform"
