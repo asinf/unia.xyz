@@ -12,6 +12,7 @@
 </head>
 
 <body>
+
     <header>
         <h1>unia.xyz</h1>
         <nav>
@@ -26,6 +27,7 @@
         Hier findest du kurze Links zu oft verwendeten Seiten der Universität Augsburg.<br>
         Tippe im Browser einfach <code>unia.xyz[/kürzel]</code> ein.
     </blockquote>
+
     {% for s in section %}
     <section>
         <h2 id="{{ s['title'] | anchor }}">{{ s['title'] }}</h2>
@@ -39,8 +41,8 @@
             <tbody>
                 {% for l in s['link'] %}
                 <tr>
-                    <th>{{ l['desc'] }}</th>
-                    <th><a href="{{ l['target'] }}"><button>{{ l['source'] }}</button></a></th>
+                    <td>{{ l['desc'] }}</td>
+                    <td><a href="{{ l['target'] }}"><button>{{ l['source'] }}</button></a></td>
                 </tr>
                 {% endfor %}
             </tbody>
@@ -64,6 +66,7 @@
             <dd>Schicke gerne eine E-Mail an <a href="mailto:hallo@fachschaft-info.de">hallo@fachschaft-info.de</a>.</dd>
         </dl>
     </section>
+
     <hr>
     <details>
         <summary>Ein Projekt von <a href="https://github.com/dat-leth">Dat</a>. Bereitgestellt durch die <a href="https://fachschaft-info.de">Fachschaft Informatik (asinf)</a>.</summary>
@@ -72,6 +75,7 @@
             <dd>{{ now() }}</dd>
         </dl>
     </details>
+
 
     <a href="https://fachschaft-info.de/impressum.html">Impressum</a>&ensp;<a href="https://fachschaft-info.de/datenschutz.html">Datenschutz</a>
 </body>
