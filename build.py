@@ -1,10 +1,10 @@
 import os
-import toml
-import requests
 import shutil
-
-from jinja2 import Environment, FileSystemLoader, StrictUndefined
 from datetime import datetime
+
+import requests
+import toml
+from jinja2 import Environment, FileSystemLoader, StrictUndefined
 from rcssmin import cssmin
 
 REDIRECTS_PATH = "redirects.toml"
@@ -35,7 +35,7 @@ def process_css():
         )
 
     with open(UNIA_CSS, "r", encoding="utf-8") as source, open(
-        os.path.join(OUTPUT_FOLDER_PATH, UNIA_CSS_MIN), "w", encoding="utf-8"
+            os.path.join(OUTPUT_FOLDER_PATH, UNIA_CSS_MIN), "w", encoding="utf-8"
     ) as target:
         target.write(str(cssmin(source.read())))
 
@@ -73,12 +73,12 @@ def main():
     process_css()
     shutil.copyfile("favicon.svg", os.path.join(OUTPUT_FOLDER_PATH, "favicon.svg"))
     with open(
-        os.path.join(OUTPUT_FOLDER_PATH, RENDERED_HTML), "w", encoding="utf-8"
+            os.path.join(OUTPUT_FOLDER_PATH, RENDERED_HTML), "w", encoding="utf-8"
     ) as f:
         f.write(render_html(data))
 
     with open(
-        os.path.join(OUTPUT_FOLDER_PATH, RENDERED_CONF), "w", encoding="utf-8"
+            os.path.join(OUTPUT_FOLDER_PATH, RENDERED_CONF), "w", encoding="utf-8"
     ) as f:
         f.write(render_conf(data))
 
