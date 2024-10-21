@@ -336,3 +336,8 @@ target = "https://forms.gle/NWkFenfs3UHupYQ96"
 desc = "Anmeldung Scotland Yard"
 source = "/scotlandyard"
 target = "https://docs.google.com/forms/d/e/1FAIpQLSdkkBrGhm5KtxecwyDELp-JQE78_Pon9D8jZgHMp4n2ku9GtA/viewform"
+
+[[section.link]]
+desc = "Uni Augsburg Meisterschaft in Mario Kart 8 Deluxe"
+source = "/mariokart"
+target = "https://fachschaft-info.de/mariokart/"
