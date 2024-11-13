@@ -322,6 +322,12 @@ target = "https://www.uni-augsburg.de/de/services/rechtssammlung/BSCMathInf/"
 
 [[section]]
 title = "Fachschaft Informatik (asinf)"
+
+[[section.link]]
+desc = "Awareness"
+source = "/awareness"
+target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/studierendenvertretung/awareness/"
+
 [[section.link]]
 desc = "Erstiheft Informatik"
 source = "/erstiheft"
