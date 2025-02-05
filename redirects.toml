@@ -63,7 +63,7 @@ target = "https://www.uni-augsburg.de/de/studium/organisation-beratung/pruefunge
 [[section.link]]
 desc = "Mensa"
 source = "/mensa"
-target = "https://studentenwerk.online/hg-oeffnungszeiten"
+target = "https://studierendenwerk-augsburg.de/essen-trinken/speiseplaene/"
 
 [[section.link]]
 desc = "Universitätsbibliothek"
