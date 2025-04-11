@@ -119,9 +119,9 @@ source = "/ersti"
 target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/im-studium/studienanfanger/"
 
 [[section.link]]
-desc = "Informationen zu Vor-/Brückenkursen"
-source = "/vorkurs"
-target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/im-studium/vorkurs/"
+desc = "Informationen zum Studienstart"
+source = "/studienstart"
+target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/im-studium/studienstart/"
 
 [[section.link]]
 desc = "Informatik 1"
