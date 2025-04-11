@@ -114,11 +114,6 @@ target = "https://www.uni-augsburg.de/de/studium/organisation-beratung/beratung/
 [[section]]
 title = "1. Semester"
 [[section.link]]
-desc = "Informationen für Erstsemester"
-source = "/ersti"
-target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/im-studium/studienanfanger/"
-
-[[section.link]]
 desc = "Informationen zum Studienstart"
 source = "/studienstart"
 target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/im-studium/studienstart/"
