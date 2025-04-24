@@ -331,7 +331,7 @@ target = "https://fachschaft-info.de/erstiheft.pdf"
 [[section.link]]
 desc = "Anmeldung Kneipentour"
 source = "/kneipentour"
-target = "https://docs.google.com/forms/d/e/1FAIpQLScu26ei3f0-wzb9WBshqXDTTwqefVfY_cD5IJ64uxp6O5Xiig/viewform"
+target = "https://forms.gle/7m4Twgi39vr2fr3QA"
 
 [[section.link]]
 desc = "Anmeldung Scotland Yard"
