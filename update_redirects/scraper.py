@@ -3,7 +3,7 @@ import toml
 from bs4 import BeautifulSoup
 
 # Getting the website
-url = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/studium/lehre/bsc-inf2018/"
+url = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/im-studium/lehre/bsc-inf2018/"
 response = requests.get(url)
 
 # Extracting the links
