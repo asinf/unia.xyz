@@ -2,3 +2,8 @@ venv/
 out/
 .vscode/
 .idea
+
+/.direnv
+flake.lock
+flake.nix
+.envrc
