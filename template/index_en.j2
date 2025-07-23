@@ -44,7 +44,7 @@
             {% for l in s['link'] %}
                 <tr>
                     <td>{{ l['desc_en'] or l['desc'] }}</td>
-                    <td><a href="{{ l['target'] }}">
+                    <td><a href="{{ l['target_en'] or l['target'] }}">
                         <button>{{ l['source'] }}</button>
                     </a></td>
                 </tr>
