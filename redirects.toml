@@ -47,26 +47,31 @@ target = "https://www.uni-augsburg.de/de/fakultaet/mntf/math/fachschaft/"
 
 [[section.link]]
 desc = "Klausurtermine"
+desc_en = "Exam dates"
 source = "/klausurtermine"
 target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/im-studium/klausurtermine/"
 
 [[section.link]]
 desc = "Altklausuren"
+desc_en = "Old exams"
 source = "/altklausuren"
 target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/studierendenvertretung/altklausuren/"
 
 [[section.link]]
 desc = "Prüfungsamt"
+desc_en = "Examination authority"
 source = "/pruefungsamt"
 target = "https://www.uni-augsburg.de/de/studium/organisation-beratung/pruefungen/infos-und-antrage/fakultat-fur-angewandte-informatik-pruefungen/"
 
 [[section.link]]
 desc = "Mensa"
+desc_en = "Canteen"
 source = "/mensa"
 target = "https://studierendenwerk-augsburg.de/essen-trinken/speiseplaene/"
 
 [[section.link]]
 desc = "Universitätsbibliothek"
+desc_en = "University library"
 source = "/bib"
 target = "https://www.uni-augsburg.de/de/organisation/bibliothek/"
 
@@ -82,6 +87,7 @@ target = "https://anmeldung.sport.uni-augsburg.de/angebote/aktueller_zeitraum/"
 
 [[section.link]]
 desc = "Mathe-Info Discord"
+desc_en = "Discord for Math and Computer Science"
 source = "/discord"
 target = "https://discord.gg/SRYedBz"
 
@@ -92,29 +98,35 @@ target = "https://makehub-cal.uni-augsburg.de/Web"
 
 [[section.link]]
 desc = "Informationen zur Rückmeldung"
+desc_en = "Information about Re-Registration"
 source = "/rueckmeldung"
 target = "https://www.uni-augsburg.de/de/studium/organisation-beratung/organisation-und-formales/rueckmeldung/"
 
 [[section.link]]
 desc = "Stundenpläne, Lehrveranstaltungen und Module"
+desc_en = "Schedules, lectures and modules"
 source = "/lehrveranstaltungen"
 target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/im-studium/lehre/"
 
 [[section.link]]
 desc = "Fristen und Termine, Vorlesungszeiten, Vorlesungsfreie Tage"
+desc_en = "Deadlines and Dates, lecture times, holidays"
 source = "/termine"
 target = "https://www.uni-augsburg.de/de/studium/organisation-beratung/fristen-und-termine/"
 
 [[section.link]]
 desc = "Beratungsangebote"
+desc_en = "Student Advice and Counselling Service"
 source = "/beratung"
 target = "https://www.uni-augsburg.de/de/studium/organisation-beratung/beratung/"
 
 
 [[section]]
 title = "1. Semester"
+title_en = "1st Semester"
 [[section.link]]
 desc = "Informationen zum Studienstart"
+desc_en = "Start of Studies"
 source = "/studienstart"
 target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/im-studium/studienstart/"
 
@@ -148,6 +160,7 @@ link = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=7a
 
 [[section]]
 title = "2. Semester"
+title_en = "2nd Semester"
 [[section.link]]
 desc = "Informatik 2"
 source = "/info2"
@@ -174,6 +187,7 @@ target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=
 
 [[section]]
 title = "3. Semester"
+title_en = "3rd Semester"
 [[section.link]]
 desc = "Informatik 3"
 source = "/info3"
@@ -192,6 +206,7 @@ target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=
 
 [[section]]
 title = "4. Semester"
+title_en = "4th Semester"
 [[section.link]]
 desc = "Systemnahe Informatik"
 source = "/si"
@@ -213,6 +228,7 @@ link = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=22
 
 [[section]]
 title = "5. Semester"
+title_en = "5th Semester"
 [[section.link]]
 desc = "Kommunikationssysteme"
 source = "/kommsys"
@@ -231,6 +247,7 @@ target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=
 
 [[section]]
 title = "Modulhandbuch"
+title_en = "Handbook of modules"
 [[section.link]]
 desc = "Informatik"
 source = "/mhb-inf"
@@ -274,6 +291,7 @@ target = "https://digicampus.uni-augsburg.de/dispatch.php/search/angebot/studien
 
 [[section]]
 title = "Prüfungsordnung"
+title_en = "Examination regulations"
 [[section.link]]
 desc = "Informatik"
 source = "/po-inf"
@@ -317,6 +335,7 @@ target = "https://www.uni-augsburg.de/de/services/rechtssammlung/BSCMathInf/"
 
 [[section]]
 title = "Fachschaft Informatik (asinf)"
+title_en = "Student's association for Computer Science"
 
 [[section.link]]
 desc = "Awareness"
