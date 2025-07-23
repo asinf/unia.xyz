@@ -254,31 +254,37 @@ title = "Modulhandbuch"
 title_en = "Handbook of modules"
 [[section.link]]
 desc = "Informatik"
+desc_en = "Computer Science"
 source = "/mhb-inf"
 target = "https://digicampus.uni-augsburg.de/dispatch.php/search/angebot/studiengang/3849680e7037bbbd26bf2e1a62dca925"
 
 [[section.link]]
 desc = "Informatik und Multimedia"
+desc_en = "Medical Information Sciences"
 source = "/mhb-infmm"
 target = "https://digicampus.uni-augsburg.de/dispatch.php/search/angebot/studiengang/3c34b406fd7ecc203a2377e5110d740b"
 
 [[section.link]]
 desc = "Medizinische Informatik"
+desc_en = "Medical Information Sciences"
 source = "/mhb-medinf"
 target = "https://digicampus.uni-augsburg.de/dispatch.php/search/angebot/studiengang/2c775b6c20922d412963956168546227"
 
 [[section.link]]
 desc = "Ingenieurinformatik"
+desc_en = "Computer Science in Engineering"
 source = "/mhb-inginf"
 target = "https://digicampus.uni-augsburg.de/dispatch.php/search/angebot/studiengang/53b4c5ab2256b9cc65d073375f195577"
 
 [[section.link]]
 desc = "Geoinformatik"
+desc_en = "Geoinformatics"
 source = "/mhb-geoinf"
 target = "https://digicampus.uni-augsburg.de/dispatch.php/search/angebot/studiengang/160191277da9ccf0d59c6f12015b7d22"
 
 [[section.link]]
 desc = "Wirtschaftsinformatik"
+desc_en = "Business & Information Systems Engineering"
 source = "/mhb-win"
 target = "https://digicampus.uni-augsburg.de/dispatch.php/search/angebot/studiengang/d83e48e4bf153c904ea3b6567051fc33"
 
@@ -289,6 +295,7 @@ target = "https://digicampus.uni-augsburg.de/dispatch.php/search/angebot/studien
 
 [[section.link]]
 desc = "Mathematik und Informatik"
+desc_en = "Mathematics and Computer Science"
 source = "/mhb-mui"
 target = "https://digicampus.uni-augsburg.de/dispatch.php/search/angebot/studiengang/466e9c52a2eb140e4bd623c454865d03"
 
@@ -298,6 +305,7 @@ title = "Prüfungsordnung"
 title_en = "Examination regulations"
 [[section.link]]
 desc = "Informatik"
+desc_en = "Computer Science"
 source = "/po-inf"
 target = "https://www.uni-augsburg.de/de/services/rechtssammlung/fai-bachelor-informatik/"
 
@@ -308,21 +316,25 @@ target = "https://www.uni-augsburg.de/de/services/rechtssammlung/fai-bachelor-in
 
 [[section.link]]
 desc = "Medizinische Informatik"
+desc_en = "Medical Information Sciences"
 source = "/po-medinf"
 target = "https://www.uni-augsburg.de/de/services/rechtssammlung/fai-bachelor-medizinische-informatik/"
 
 [[section.link]]
 desc = "Ingenieurinformatik"
+desc_en = "Computer Science in Engineering"
 source = "/po-inginf"
 target = "https://www.uni-augsburg.de/de/services/rechtssammlung/fai-bachelor-ingenieurinformatik/"
 
 [[section.link]]
 desc = "Geoinformatik"
+desc_en = "Geoinformatics"
 source = "/po-geoinf"
 target = "https://www.uni-augsburg.de/de/services/rechtssammlung/fai-bachelor-geoinformatik/"
 
 [[section.link]]
 desc = "Wirtschaftsinformatik"
+desc_en = "Business & Information Systems Engineering"
 source = "/po-win"
 target = "https://www.uni-augsburg.de/de/services/rechtssammlung/fai-bachelor-wirtschaftsinformatik/"
 
@@ -333,6 +345,7 @@ target = "https://www.uni-augsburg.de/de/services/rechtssammlung/BScDataSc/"
 
 [[section.link]]
 desc = "Mathematik und Informatik"
+desc_en = "Mathematics and Computer Science"
 source = "/po-mui"
 target = "https://www.uni-augsburg.de/de/services/rechtssammlung/BSCMathInf/"
 
