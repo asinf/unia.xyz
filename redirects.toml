@@ -86,6 +86,7 @@ target = "https://opac.bibliothek.uni-augsburg.de/"
 
 [[section.link]]
 desc = "Hochschulsport"
+desc_en = "University Sports"
 source = "/sport"
 target = "https://anmeldung.sport.uni-augsburg.de/angebote/aktueller_zeitraum/"
 
