@@ -106,24 +106,28 @@ desc = "Informationen zur Rückmeldung"
 desc_en = "Information about Re-Registration"
 source = "/rueckmeldung"
 target = "https://www.uni-augsburg.de/de/studium/organisation-beratung/organisation-und-formales/rueckmeldung/"
+target_en = "https://www.uni-augsburg.de/en/studium/organisation-beratung/organisation-und-formales/rueckmeldung/"
 
 [[section.link]]
 desc = "Stundenpläne, Lehrveranstaltungen und Module"
 desc_en = "Schedules, lectures and modules"
 source = "/lehrveranstaltungen"
 target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/im-studium/lehre/"
+target_en = "https://www.uni-augsburg.de/en/fakultaet/fai/informatik/im-studium/lehre/"
 
 [[section.link]]
 desc = "Fristen und Termine, Vorlesungszeiten, Vorlesungsfreie Tage"
-desc_en = "Deadlines and Dates, lecture times, holidays"
+desc_en = "Dates and Deadlines, holidays"
 source = "/termine"
 target = "https://www.uni-augsburg.de/de/studium/organisation-beratung/fristen-und-termine/"
+target_en = "https://www.uni-augsburg.de/en/studium/organisation-beratung/fristen-und-termine/"
 
 [[section.link]]
 desc = "Beratungsangebote"
 desc_en = "Student Advice and Counselling Service"
 source = "/beratung"
 target = "https://www.uni-augsburg.de/de/studium/organisation-beratung/beratung/"
+target_en = "https://www.uni-augsburg.de/en/studium/organisation-beratung/beratung/"
 
 
 [[section]]
@@ -134,6 +138,7 @@ desc = "Informationen zum Studienstart"
 desc_en = "Start of Studies"
 source = "/studienstart"
 target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/im-studium/studienstart/"
+target_en = "https://www.uni-augsburg.de/en/fakultaet/fai/informatik/im-studium/studienstart/"
 
 [[section.link]]
 desc = "Informatik 1"
