@@ -45,7 +45,7 @@
                 <tr>
                     <td>{{ l['desc_en'] or l['desc'] }}</td>
                     <td><a href="{{ l['target_en'] or l['target'] }}">
-                        <button>{{ l['source'] }}</button>
+                        <button>{{ l['source'] if not l['target_en'] else (l['source_en'] or (l['source'] + '-en')) }}</button>
                     </a></td>
                 </tr>
             {% endfor %}
