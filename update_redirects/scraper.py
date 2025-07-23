@@ -11,7 +11,14 @@ soup = BeautifulSoup(response.text, 'html.parser')
 courses = soup.find('div', class_="textEditorContent").findAll('a')
 uni_links = {}
 for course in courses:
-    uni_links[course.find('b').string.strip()] = course.get('href')
+    if course.find('b') != None: # Usually the course name is inside of a <b> tag
+        course_name = course.find('b').string.strip()
+    elif course.find('strong') != None: # Sometimes it's inside of a <strong> tag
+        course_name = course.find('strong').string.strip()
+    else: # And sometimes it's directly inside of the link
+        course_name = course.string.strip()
+
+    uni_links[course_name] = course.get('href')
 
 
 # Open Toml file for redirects
