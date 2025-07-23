@@ -42,7 +42,7 @@
             <tbody>
             {% for l in s['link'] %}
                 <tr>
-                    <td>{{ l['desc'] }}</td>
+                    <td>{{ l['desc_en'] or l['desc'] }}</td>
                     <td><a href="{{ l['target'] }}">
                         <button>{{ l['source'] }}</button>
                     </a></td>
