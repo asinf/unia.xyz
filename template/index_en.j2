@@ -19,8 +19,9 @@
     <nav>
             <span>
                 {% for s in section %}
-                    <a href="#{{ s['title_en'] | anchor }}">{{ s['title_en'] }}</a> {{ "/" if not loop.last }}
+                    <a href="#{{ s['title_en'] | anchor }}">{{ s['title_en'] }}</a> /
                 {% endfor %}
+                <a href="/">Deutsch</a>
             </span>
     </nav>
 </header>
