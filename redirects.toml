@@ -105,6 +105,7 @@ target = "https://makehub-cal.uni-augsburg.de/Web"
 desc = "Informationen zur Rückmeldung"
 desc_en = "Information about Re-Registration"
 source = "/rueckmeldung"
+source_en = "/re-registration"
 target = "https://www.uni-augsburg.de/de/studium/organisation-beratung/organisation-und-formales/rueckmeldung/"
 target_en = "https://www.uni-augsburg.de/en/studium/organisation-beratung/organisation-und-formales/rueckmeldung/"
 
@@ -112,6 +113,7 @@ target_en = "https://www.uni-augsburg.de/en/studium/organisation-beratung/organi
 desc = "Stundenpläne, Lehrveranstaltungen und Module"
 desc_en = "Schedules, lectures and modules"
 source = "/lehrveranstaltungen"
+source_en = "/courses"
 target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/im-studium/lehre/"
 target_en = "https://www.uni-augsburg.de/en/fakultaet/fai/informatik/im-studium/lehre/"
 
@@ -119,6 +121,7 @@ target_en = "https://www.uni-augsburg.de/en/fakultaet/fai/informatik/im-studium/
 desc = "Fristen und Termine, Vorlesungszeiten, Vorlesungsfreie Tage"
 desc_en = "Dates and Deadlines, holidays"
 source = "/termine"
+source_en = "/dates"
 target = "https://www.uni-augsburg.de/de/studium/organisation-beratung/fristen-und-termine/"
 target_en = "https://www.uni-augsburg.de/en/studium/organisation-beratung/fristen-und-termine/"
 
@@ -126,6 +129,7 @@ target_en = "https://www.uni-augsburg.de/en/studium/organisation-beratung/friste
 desc = "Beratungsangebote"
 desc_en = "Student Advice and Counselling Service"
 source = "/beratung"
+source_en = "/counselling"
 target = "https://www.uni-augsburg.de/de/studium/organisation-beratung/beratung/"
 target_en = "https://www.uni-augsburg.de/en/studium/organisation-beratung/beratung/"
 
@@ -137,6 +141,7 @@ title_en = "1st Semester"
 desc = "Informationen zum Studienstart"
 desc_en = "Start of Studies"
 source = "/studienstart"
+source_en = "/start-of-studies"
 target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/im-studium/studienstart/"
 target_en = "https://www.uni-augsburg.de/en/fakultaet/fai/informatik/im-studium/studienstart/"
 
