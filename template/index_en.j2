@@ -19,7 +19,7 @@
     <nav>
             <span>
                 {% for s in section %}
-                    <a href="#{{ s['title'] | anchor }}">{{ s['title'] }}</a> {{ "/" if not loop.last }}
+                    <a href="#{{ s['title_en'] | anchor }}">{{ s['title_en'] }}</a> {{ "/" if not loop.last }}
                 {% endfor %}
             </span>
     </nav>
@@ -31,7 +31,7 @@
 
 {% for s in section %}
     <section>
-        <h2 id="{{ s['title'] | anchor }}">{{ s['title'] }}</h2>
+        <h2 id="{{ s['title_en'] | anchor }}">{{ s['title_en'] }}</h2>
         <table>
             <thead>
             <tr>
