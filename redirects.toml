@@ -48,6 +48,7 @@ desc = "Fachschaft Mathematik"
 desc_en = "Student's Association for Mathematics"
 source = "/fsmath"
 target = "https://www.uni-augsburg.de/de/fakultaet/mntf/math/fachschaft/"
+target_en = "https://www.uni-augsburg.de/en/fakultaet/mntf/math/fachschaft/"
 
 [[section.link]]
 desc = "Klausurtermine"
