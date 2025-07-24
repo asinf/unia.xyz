@@ -46,6 +46,11 @@ source = "/fsmath"
 target = "https://www.uni-augsburg.de/de/fakultaet/mntf/math/fachschaft/"
 
 [[section.link]]
+desc = "Studierendenvertretung"
+source = "/stura"
+target = "https://www.uni-augsburg.de/de/fakultaet/fai/stura_fai/"
+
+[[section.link]]
 desc = "Klausurtermine"
 source = "/klausurtermine"
 target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/im-studium/klausurtermine/"
