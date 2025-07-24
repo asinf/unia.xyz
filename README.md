@@ -25,4 +25,5 @@ Quickly hacked together, but it works. And it works in the following way:
 - Minify Custom CSS with rcssmin.
 - Create output folder `./out/` if not exists.
 - Generate `./out/index.html` using Jinja2.
-- Generate `./out/_redirects` using Jinja2
+- Generate `./out/en/index.html` using Jinja2.
+- Generate `./out/_redirects` using Jinja2.

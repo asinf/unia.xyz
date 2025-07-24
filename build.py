@@ -11,11 +11,13 @@ REDIRECTS_PATH = "redirects.toml"
 
 TEMPLATE_FOLDER_PATH = "./template"
 TEMPLATE_HTML = "index.j2"
+TEMPLATE_HTML_EN = "index_en.j2"
 TEMPLATE_CONF = "redirects.j2"
 UNIA_CSS = "unia.css"
 
 OUTPUT_FOLDER_PATH = "out"
 RENDERED_HTML = "index.html"
+RENDERED_HTML_EN = "en/index.html"
 RENDERED_CONF = "_redirects"
 NEW_CSS_MIN = "new.min.css"
 UNIA_CSS_MIN = "unia.min.css"
@@ -40,7 +42,7 @@ def process_css():
         target.write(str(cssmin(source.read())))
 
 
-def render_html(data, extensions=[], strict=False):
+def render_html(data, template, extensions=[], strict=False):
     env = Environment(
         loader=FileSystemLoader(os.path.basename(TEMPLATE_FOLDER_PATH)),
         extensions=extensions,
@@ -52,7 +54,7 @@ def render_html(data, extensions=[], strict=False):
     env.globals["len"] = len
     env.filters["anchor"] = lambda x: "".join(x.split()).lower()
 
-    return env.get_template(TEMPLATE_HTML).render(data)
+    return env.get_template(template).render(data)
 
 
 def render_conf(data, extensions=[], strict=False):
@@ -75,7 +77,15 @@ def main():
     with open(
             os.path.join(OUTPUT_FOLDER_PATH, RENDERED_HTML), "w", encoding="utf-8"
     ) as f:
-        f.write(render_html(data))
+        f.write(render_html(data, TEMPLATE_HTML))
+
+    if not os.path.isdir(os.path.join(OUTPUT_FOLDER_PATH, "en")):
+        os.mkdir(os.path.join(OUTPUT_FOLDER_PATH, "en"))
+
+    with open(
+            os.path.join(OUTPUT_FOLDER_PATH, RENDERED_HTML_EN), "w", encoding="utf-8"
+    ) as f:
+        f.write(render_html(data, TEMPLATE_HTML_EN))
 
     with open(
             os.path.join(OUTPUT_FOLDER_PATH, RENDERED_CONF), "w", encoding="utf-8"

@@ -1,4 +1,6 @@
 {% for s in section %}# {{ s['title'] }}
 {% for l in s['link'] %}{{ l['source'] }}{{ "\t" }}{{ l['target'] }}
+{%if l['target_en'] %}{{ l['source_en'] or (l['source'] + '-en') }}{{ "\t" }}{{ l['target_en'] or l['target'] }}
+{% endif %}
 {% endfor %}
 {% endfor %}
