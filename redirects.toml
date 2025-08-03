@@ -46,7 +46,7 @@ source = "/fsmath"
 target = "https://www.uni-augsburg.de/de/fakultaet/mntf/math/fachschaft/"
 
 [[section.link]]
-desc = "Studierendenvertretung"
+desc = "Studierendenrat"
 source = "/stura"
 target = "https://www.uni-augsburg.de/de/fakultaet/fai/stura_fai/"
 
