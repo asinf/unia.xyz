@@ -46,6 +46,11 @@ source = "/fsmath"
 target = "https://www.uni-augsburg.de/de/fakultaet/mntf/math/fachschaft/"
 
 [[section.link]]
+desc = "Studierendenrat"
+source = "/stura"
+target = "https://www.uni-augsburg.de/de/fakultaet/fai/stura_fai/"
+
+[[section.link]]
 desc = "Klausurtermine"
 source = "/klausurtermine"
 target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/im-studium/klausurtermine/"
@@ -84,11 +89,6 @@ target = "https://anmeldung.sport.uni-augsburg.de/angebote/aktueller_zeitraum/"
 desc = "Mathe-Info Discord"
 source = "/discord"
 target = "https://discord.gg/SRYedBz"
-
-[[section.link]]
-desc = "MakeHub Kalender"
-source = "/makehub-kal"
-target = "https://makehub-cal.uni-augsburg.de/Web"
 
 [[section.link]]
 desc = "Informationen zur Rückmeldung"
