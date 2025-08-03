@@ -51,6 +51,11 @@ target = "https://www.uni-augsburg.de/de/fakultaet/mntf/math/fachschaft/"
 target_en = "https://www.uni-augsburg.de/en/fakultaet/mntf/math/fachschaft/"
 
 [[section.link]]
+desc = "Studierendenrat"
+source = "/stura"
+target = "https://www.uni-augsburg.de/de/fakultaet/fai/stura_fai/"
+
+[[section.link]]
 desc = "Klausurtermine"
 desc_en = "Exam dates"
 source = "/klausurtermine"
@@ -96,11 +101,6 @@ desc = "Mathe-Info Discord"
 desc_en = "Discord for Math and Computer Science"
 source = "/discord"
 target = "https://discord.gg/SRYedBz"
-
-[[section.link]]
-desc = "MakeHub Kalender"
-source = "/makehub-kal"
-target = "https://makehub-cal.uni-augsburg.de/Web"
 
 [[section.link]]
 desc = "Informationen zur Rückmeldung"
