@@ -81,7 +81,7 @@ target = "https://studierendenwerk-augsburg.de/essen-trinken/speiseplaene/"
 
 [[section.link]]
 desc = "Universitätsbibliothek"
-desc_en = "University library"
+desc_en = "Library"
 source = "/bib"
 target = "https://www.uni-augsburg.de/de/organisation/bibliothek/"
 
