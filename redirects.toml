@@ -63,7 +63,7 @@ target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/im-studium/kla
 
 [[section.link]]
 desc = "Altklausuren"
-desc_en = "Old exams"
+desc_en = "Previous exams"
 source = "/altklausuren"
 target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/studierendenvertretung/altklausuren/"
 
