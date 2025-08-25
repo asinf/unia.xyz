@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
     <meta charset="UTF-8">
@@ -19,8 +19,9 @@
     <nav>
             <span>
                 {% for s in section %}
-                    <a href="#{{ s['title'] | anchor }}">{{ s['title'] }}</a> {{ "/" if not loop.last }}
+                    <a href="#{{ s['title'] | anchor }}">{{ s['title'] }}</a> /
                 {% endfor %}
+                <a href="/en/">English</a>
             </span>
     </nav>
 </header>
