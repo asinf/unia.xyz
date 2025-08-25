@@ -39,13 +39,13 @@ target = "https://confluence.rz.uni-augsburg.de/display/RZSER/Nutzung+von+eduroa
 
 [[section.link]]
 desc = "Fachschaft Informatik"
-desc_en = "Student's Association for Computer Science"
+desc_en = "Students' Association for Computer Science"
 source = "/fs"
 target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/studierendenvertretung/"
 
 [[section.link]]
 desc = "Fachschaft Mathematik"
-desc_en = "Student's Association for Mathematics"
+desc_en = "Students' Association for Mathematics"
 source = "/fsmath"
 target = "https://www.uni-augsburg.de/de/fakultaet/mntf/math/fachschaft/"
 target_en = "https://www.uni-augsburg.de/en/fakultaet/mntf/math/fachschaft/"
