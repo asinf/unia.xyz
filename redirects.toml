@@ -69,7 +69,7 @@ target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/studierendenve
 
 [[section.link]]
 desc = "Prüfungsamt"
-desc_en = "Examination authority"
+desc_en = "Examination office"
 source = "/pruefungsamt"
 target = "https://www.uni-augsburg.de/de/studium/organisation-beratung/pruefungen/infos-und-antrage/fakultat-fur-angewandte-informatik-pruefungen/"
 
