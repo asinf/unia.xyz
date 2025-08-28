@@ -140,7 +140,7 @@ title = "1. Semester"
 title_en = "1st Semester"
 [[section.link]]
 desc = "Informationen zum Studienstart"
-desc_en = "Start of Studies"
+desc_en = "Information about starting your studies"
 source = "/studienstart"
 source_en = "/start-of-studies"
 target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/im-studium/studienstart/"
