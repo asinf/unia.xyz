@@ -1,7 +1,9 @@
 [[section]]
 title = "Allgemeines"
+title_en = "General"
 [[section.link]]
 desc = "Digicampus (Meine Veranstaltungen)"
+desc_en = "Digicampus (My Courses)"
 source = "/dc"
 target = "https://digicampus.uni-augsburg.de/dispatch.php/my_courses"
 
@@ -37,13 +39,16 @@ target = "https://confluence.rz.uni-augsburg.de/display/RZSER/Nutzung+von+eduroa
 
 [[section.link]]
 desc = "Fachschaft Informatik"
+desc_en = "Students' Association for Computer Science"
 source = "/fs"
 target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/studierendenvertretung/"
 
 [[section.link]]
 desc = "Fachschaft Mathematik"
+desc_en = "Students' Association for Mathematics"
 source = "/fsmath"
 target = "https://www.uni-augsburg.de/de/fakultaet/mntf/math/fachschaft/"
+target_en = "https://www.uni-augsburg.de/en/fakultaet/mntf/math/fachschaft/"
 
 [[section.link]]
 desc = "Studierendenrat"
@@ -52,26 +57,31 @@ target = "https://www.uni-augsburg.de/de/fakultaet/fai/stura_fai/"
 
 [[section.link]]
 desc = "Klausurtermine"
+desc_en = "Exam dates"
 source = "/klausurtermine"
 target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/im-studium/klausurtermine/"
 
 [[section.link]]
 desc = "Altklausuren"
+desc_en = "Previous exams"
 source = "/altklausuren"
 target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/studierendenvertretung/altklausuren/"
 
 [[section.link]]
 desc = "Prüfungsamt"
+desc_en = "Examination office"
 source = "/pruefungsamt"
 target = "https://www.uni-augsburg.de/de/studium/organisation-beratung/pruefungen/infos-und-antrage/fakultat-fur-angewandte-informatik-pruefungen/"
 
 [[section.link]]
 desc = "Mensa"
+desc_en = "Canteen"
 source = "/mensa"
 target = "https://studierendenwerk-augsburg.de/essen-trinken/speiseplaene/"
 
 [[section.link]]
 desc = "Universitätsbibliothek"
+desc_en = "Library"
 source = "/bib"
 target = "https://www.uni-augsburg.de/de/organisation/bibliothek/"
 
@@ -82,41 +92,59 @@ target = "https://opac.bibliothek.uni-augsburg.de/"
 
 [[section.link]]
 desc = "Hochschulsport"
+desc_en = "University Sports"
 source = "/sport"
 target = "https://anmeldung.sport.uni-augsburg.de/angebote/aktueller_zeitraum/"
 
 [[section.link]]
 desc = "Mathe-Info Discord"
+desc_en = "Discord for Math and Computer Science"
 source = "/discord"
 target = "https://discord.gg/SRYedBz"
 
 [[section.link]]
 desc = "Informationen zur Rückmeldung"
+desc_en = "Information about Re-Registration"
 source = "/rueckmeldung"
+source_en = "/re-registration"
 target = "https://www.uni-augsburg.de/de/studium/organisation-beratung/organisation-und-formales/rueckmeldung/"
+target_en = "https://www.uni-augsburg.de/en/studium/organisation-beratung/organisation-und-formales/rueckmeldung/"
 
 [[section.link]]
 desc = "Stundenpläne, Lehrveranstaltungen und Module"
+desc_en = "Schedules, lectures and modules"
 source = "/lehrveranstaltungen"
+source_en = "/courses"
 target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/im-studium/lehre/"
+target_en = "https://www.uni-augsburg.de/en/fakultaet/fai/informatik/im-studium/lehre/"
 
 [[section.link]]
 desc = "Fristen und Termine, Vorlesungszeiten, Vorlesungsfreie Tage"
+desc_en = "Dates and Deadlines, holidays"
 source = "/termine"
+source_en = "/dates"
 target = "https://www.uni-augsburg.de/de/studium/organisation-beratung/fristen-und-termine/"
+target_en = "https://www.uni-augsburg.de/en/studium/organisation-beratung/fristen-und-termine/"
 
 [[section.link]]
 desc = "Beratungsangebote"
+desc_en = "Student Advice and Counselling Service"
 source = "/beratung"
+source_en = "/counselling"
 target = "https://www.uni-augsburg.de/de/studium/organisation-beratung/beratung/"
+target_en = "https://www.uni-augsburg.de/en/studium/organisation-beratung/beratung/"
 
 
 [[section]]
 title = "1. Semester"
+title_en = "1st Semester"
 [[section.link]]
 desc = "Informationen zum Studienstart"
+desc_en = "Information about starting your studies"
 source = "/studienstart"
+source_en = "/start-of-studies"
 target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/im-studium/studienstart/"
+target_en = "https://www.uni-augsburg.de/en/fakultaet/fai/informatik/im-studium/studienstart/"
 
 [[section.link]]
 desc = "Informatik 1"
@@ -148,6 +176,7 @@ link = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=7a
 
 [[section]]
 title = "2. Semester"
+title_en = "2nd Semester"
 [[section.link]]
 desc = "Informatik 2"
 source = "/info2"
@@ -174,6 +203,7 @@ target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=
 
 [[section]]
 title = "3. Semester"
+title_en = "3rd Semester"
 [[section.link]]
 desc = "Informatik 3"
 source = "/info3"
@@ -192,6 +222,7 @@ target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=
 
 [[section]]
 title = "4. Semester"
+title_en = "4th Semester"
 [[section.link]]
 desc = "Systemnahe Informatik"
 source = "/si"
@@ -213,6 +244,7 @@ link = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=22
 
 [[section]]
 title = "5. Semester"
+title_en = "5th Semester"
 [[section.link]]
 desc = "Kommunikationssysteme"
 source = "/kommsys"
@@ -231,33 +263,40 @@ target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=
 
 [[section]]
 title = "Modulhandbuch"
+title_en = "Handbook of modules"
 [[section.link]]
 desc = "Informatik"
+desc_en = "Computer Science"
 source = "/mhb-inf"
 target = "https://digicampus.uni-augsburg.de/dispatch.php/search/angebot/studiengang/3849680e7037bbbd26bf2e1a62dca925"
 
 [[section.link]]
 desc = "Informatik und Multimedia"
+desc_en = "Medical Information Sciences"
 source = "/mhb-infmm"
 target = "https://digicampus.uni-augsburg.de/dispatch.php/search/angebot/studiengang/3c34b406fd7ecc203a2377e5110d740b"
 
 [[section.link]]
 desc = "Medizinische Informatik"
+desc_en = "Medical Information Sciences"
 source = "/mhb-medinf"
 target = "https://digicampus.uni-augsburg.de/dispatch.php/search/angebot/studiengang/2c775b6c20922d412963956168546227"
 
 [[section.link]]
 desc = "Ingenieurinformatik"
+desc_en = "Computer Science in Engineering"
 source = "/mhb-inginf"
 target = "https://digicampus.uni-augsburg.de/dispatch.php/search/angebot/studiengang/53b4c5ab2256b9cc65d073375f195577"
 
 [[section.link]]
 desc = "Geoinformatik"
+desc_en = "Geoinformatics"
 source = "/mhb-geoinf"
 target = "https://digicampus.uni-augsburg.de/dispatch.php/search/angebot/studiengang/160191277da9ccf0d59c6f12015b7d22"
 
 [[section.link]]
 desc = "Wirtschaftsinformatik"
+desc_en = "Business & Information Systems Engineering"
 source = "/mhb-win"
 target = "https://digicampus.uni-augsburg.de/dispatch.php/search/angebot/studiengang/d83e48e4bf153c904ea3b6567051fc33"
 
@@ -268,14 +307,17 @@ target = "https://digicampus.uni-augsburg.de/dispatch.php/search/angebot/studien
 
 [[section.link]]
 desc = "Mathematik und Informatik"
+desc_en = "Mathematics and Computer Science"
 source = "/mhb-mui"
 target = "https://digicampus.uni-augsburg.de/dispatch.php/search/angebot/studiengang/466e9c52a2eb140e4bd623c454865d03"
 
 
 [[section]]
 title = "Prüfungsordnung"
+title_en = "Examination regulations"
 [[section.link]]
 desc = "Informatik"
+desc_en = "Computer Science"
 source = "/po-inf"
 target = "https://www.uni-augsburg.de/de/services/rechtssammlung/fai-bachelor-informatik/"
 
@@ -286,21 +328,25 @@ target = "https://www.uni-augsburg.de/de/services/rechtssammlung/fai-bachelor-in
 
 [[section.link]]
 desc = "Medizinische Informatik"
+desc_en = "Medical Information Sciences"
 source = "/po-medinf"
 target = "https://www.uni-augsburg.de/de/services/rechtssammlung/fai-bachelor-medizinische-informatik/"
 
 [[section.link]]
 desc = "Ingenieurinformatik"
+desc_en = "Computer Science in Engineering"
 source = "/po-inginf"
 target = "https://www.uni-augsburg.de/de/services/rechtssammlung/fai-bachelor-ingenieurinformatik/"
 
 [[section.link]]
 desc = "Geoinformatik"
+desc_en = "Geoinformatics"
 source = "/po-geoinf"
 target = "https://www.uni-augsburg.de/de/services/rechtssammlung/fai-bachelor-geoinformatik/"
 
 [[section.link]]
 desc = "Wirtschaftsinformatik"
+desc_en = "Business & Information Systems Engineering"
 source = "/po-win"
 target = "https://www.uni-augsburg.de/de/services/rechtssammlung/fai-bachelor-wirtschaftsinformatik/"
 
@@ -311,12 +357,14 @@ target = "https://www.uni-augsburg.de/de/services/rechtssammlung/BScDataSc/"
 
 [[section.link]]
 desc = "Mathematik und Informatik"
+desc_en = "Mathematics and Computer Science"
 source = "/po-mui"
 target = "https://www.uni-augsburg.de/de/services/rechtssammlung/BSCMathInf/"
 
 
 [[section]]
 title = "Fachschaft Informatik (asinf)"
+title_en = "Students' Association for Computer Science (asinf)"
 
 [[section.link]]
 desc = "Awareness"

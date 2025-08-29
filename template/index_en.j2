@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unia.xyz | Short URLS to pages of the University of Augsburg</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../new.min.css">
+    <link rel="stylesheet" href="../unia.min.css">
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+</head>
+
+<body>
+
+<header>
+    <a id="lang-selector" href="/">de | <b>en</b></a>
+    <h1>unia.xyz</h1>
+    <nav>
+            <span>
+                {% for s in section %}
+                    <a href="#{{ s['title_en'] | anchor }}">{{ s['title_en'] }}</a> {{ "/" if not loop.last }}
+                {% endfor %}
+            </span>
+    </nav>
+</header>
+<blockquote>
+    This page lists short Links to useful pages of the University of Augsburg.<br>
+    Just enter <code>unia.xyz[/shortlink]</code> in your browser.
+</blockquote>
+
+{% for s in section %}
+    <section>
+        <h2 id="{{ s['title_en'] | anchor }}">{{ s['title_en'] }}</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Description</th>
+                <th>ShortLink</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for l in s['link'] %}
+                <tr>
+                    <td>{{ l['desc_en'] or l['desc'] }}</td>
+                    <td><a href="{{ l['target_en'] or l['target'] }}">
+                        <button>{{ l['source'] if not l['target_en'] else (l['source_en'] or (l['source'] + '-en')) }}</button>
+                    </a></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </section>
+{% endfor %}
+<hr>
+<section><strong>Hint:</strong> You can search on the page using <kbd>CTRL+F</kbd> or
+    <kbd>Command+F</kbd> on your keyboard. On a phone there is the entry "Find in page" in the browser menu.
+</section>
+<hr>
+<section>
+    <dl>
+        <dt>You want to add <em>new links and update outdated links</em>?</dt>
+        <dd>Sure! Just create a Pull Request on GitHub at <a href="https://github.com/asinf/unia.xyz"
+                                                                         target="_blank" rel="noopener noreferrer">this
+            Git repository</a>.
+        </dd>
+
+        <dt>You are experiencing issues with this site or the short URLs?</dt>
+        <dd>Create an Issue at this <a href="https://github.com/asinf/unia.xyz" target="_blank"
+                                            rel="noopener noreferrer">GitHub project</a>.
+        </dd>
+
+        <dt>You have any questions or suggestions?</dt>
+        <dd>Write us an E-Mail at <a href="mailto:hallo@fachschaft-info.de">hallo@fachschaft-info.de</a>.</dd>
+    </dl>
+</section>
+
+<hr>
+<details>
+    <summary>A project by <a href="https://github.com/dat-leth">Dat</a>. Powered by the <a
+            href="https://fachschaft-info.de">Students' Association for Computer Science (asinf)</a>.
+    </summary>
+    <dl>
+        <dt>Last Build</dt>
+        <dd>{{ now() }}</dd>
+    </dl>
+</details>
+
+<a href="https://fachschaft-info.de/impressum.html">Imprint</a>&ensp;<a
+        href="https://fachschaft-info.de/datenschutz.html">Privacy</a>
+</body>
+
+</html>
