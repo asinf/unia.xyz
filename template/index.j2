@@ -15,13 +15,13 @@
 <body>
 
 <header>
+    <a id="lang-selector" href="/en/"><b>de</b> | en</a>
     <h1>unia.xyz</h1>
     <nav>
             <span>
                 {% for s in section %}
-                    <a href="#{{ s['title'] | anchor }}">{{ s['title'] }}</a> /
+                    <a href="#{{ s['title'] | anchor }}">{{ s['title'] }}</a> {{ "/" if not loop.last }}
                 {% endfor %}
-                <a href="/en/">English</a>
             </span>
     </nav>
 </header>

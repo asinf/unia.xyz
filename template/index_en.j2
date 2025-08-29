@@ -15,13 +15,13 @@
 <body>
 
 <header>
+    <a id="lang-selector" href="/">de | <b>en</b></a>
     <h1>unia.xyz</h1>
     <nav>
             <span>
                 {% for s in section %}
-                    <a href="#{{ s['title_en'] | anchor }}">{{ s['title_en'] }}</a> /
+                    <a href="#{{ s['title_en'] | anchor }}">{{ s['title_en'] }}</a> {{ "/" if not loop.last }}
                 {% endfor %}
-                <a href="/">Deutsch</a>
             </span>
     </nav>
 </header>
@@ -61,7 +61,7 @@
 <section>
     <dl>
         <dt>You want to add <em>new links and update outdated links</em>?</dt>
-        <dd>Gerne! Just create a Pull Request on GitHub at <a href="https://github.com/asinf/unia.xyz"
+        <dd>Sure! Just create a Pull Request on GitHub at <a href="https://github.com/asinf/unia.xyz"
                                                                          target="_blank" rel="noopener noreferrer">this
             Git repository</a>.
         </dd>
