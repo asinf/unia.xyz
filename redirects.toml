@@ -149,7 +149,7 @@ target_en = "https://www.uni-augsburg.de/en/fakultaet/fai/informatik/im-studium/
 [[section.link]]
 desc = "Informatik 1"
 source = "/info1"
-target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=50d710d5a0fcdfcedd1adf7d5f24af44"
+target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=a21c78d5d5c098c6835e90f667e7b7b9"
 
 [[section.link]]
 desc = "Programmierkurs"
@@ -160,12 +160,12 @@ link = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=3c
 [[section.link]]
 desc = "Mathematik für Informatiker I"
 source = "/mfi1"
-target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=776edc9c59569c077e5badbaea96c691"
+target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=aa6c0b4fe3ed05aaa8a3d5a1dd7f6f9b"
 
 [[section.link]]
 desc = "Diskrete Strukturen und Logik"
 source = "/dislo"
-target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=aa2f05511e2df7f2aebf6014238b8614"
+target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=c44cae9e9618ecb9f795dfb7946dcf12"
 
 [[section.link]]
 desc = "Lineare Algebra I"
@@ -198,7 +198,7 @@ link = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=9c
 [[section.link]]
 desc = "Analysis I"
 source = "/ana1"
-target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=54bb6adf47e2097662d9e0eeead6277a"
+target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=28787c497f27ffdcf0b450fd0d2267ac"
 
 
 [[section]]
@@ -207,17 +207,17 @@ title_en = "3rd Semester"
 [[section.link]]
 desc = "Informatik 3"
 source = "/info3"
-target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=148c0bb713797e5a56e6f71155f9e88c"
+target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=a69ed97fa7cecf4a9a8e46dfa91873cb"
 
 [[section.link]]
 desc = "Stochastik für Informatiker"
 source = "/sfi"
-target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=d155c4e909132be5b8c4a00303fd48eb"
+target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=eee02762342da92e8eb7cd9737f1594c"
 
 [[section.link]]
 desc = "Datenbanksysteme"
 source = "/dbs"
-target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=f3c545a7b62f31118150daf6b69df33c"
+target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=1d7a14ff64f099ca8baac1c9727a005c"
 
 
 [[section]]
@@ -248,17 +248,17 @@ title_en = "5th Semester"
 [[section.link]]
 desc = "Kommunikationssysteme"
 source = "/kommsys"
-target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=e4e5323f640fd6c9a962fe4885cfc424"
+target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=66072c407605c92b4f3bc0678bc25ee6"
 
 [[section.link]]
 desc = "Softwaretechnik"
 source = "/swt"
-target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=60acd8cdf7b5248b1e06d3364b1c9503"
+target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=42e90b965f0c78242e5426cd1bda8b86"
 
 [[section.link]]
 desc = "Grundlagen der Signalverarbeitung und des maschinellen Lernens / Multimedia Grundlagen I"
 source = "/svml"
-target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=52f9d1add772abe35cc31274d73d5c1a"
+target = "https://digicampus.uni-augsburg.de/dispatch.php/course/details?sem_id=f4aced9eaedf96f253c242ed18803768"
 
 
 [[section]]
@@ -365,7 +365,6 @@ target = "https://www.uni-augsburg.de/de/services/rechtssammlung/BSCMathInf/"
 [[section]]
 title = "Fachschaft Informatik (asinf)"
 title_en = "Students' Association for Computer Science (asinf)"
-
 [[section.link]]
 desc = "Awareness"
 source = "/awareness"
@@ -390,3 +389,5 @@ target = "https://docs.google.com/forms/d/e/1FAIpQLSfmuAQ8t-KxngSo_jgdUAE6hZI7Ph
 desc = "Uni Augsburg Meisterschaft in Mario Kart 8 Deluxe"
 source = "/mariokart"
 target = "https://fachschaft-info.de/mariokart/"
+
+
