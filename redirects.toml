@@ -381,9 +381,9 @@ source = "/kneipentour"
 target = "https://forms.gle/nYCorjSTnEbD33d6A"
 
 [[section.link]]
-desc = "Anmeldung Scotland Yard"
+desc = "Anmeldung Scotland Yard (Keine Anmeldung notwendig)"
 source = "/scotlandyard"
-target = "https://docs.google.com/forms/d/e/1FAIpQLSfmuAQ8t-KxngSo_jgdUAE6hZI7PhutgcKN6F7poBeSuReFQg/viewform"
+target = ""
 
 [[section.link]]
 desc = "Uni Augsburg Meisterschaft in Mario Kart 8 Deluxe"
