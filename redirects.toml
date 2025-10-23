@@ -38,13 +38,13 @@ source = "/eduroam"
 target = "https://confluence.rz.uni-augsburg.de/display/RZSER/Nutzung+von+eduroam#Nutzungvoneduroam-HiergehteszudenAnleitungenf%C3%BCrdieverschiedenenBetriebssysteme:"
 
 [[section.link]]
-desc = "Fachschaft Informatik"
+desc = "Studierendenvertretung Informatik"
 desc_en = "Students' Association for Computer Science"
 source = "/fs"
 target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/studierendenvertretung/"
 
 [[section.link]]
-desc = "Fachschaft Mathematik"
+desc = "Studierendenvertretung Mathematik"
 desc_en = "Students' Association for Mathematics"
 source = "/fsmath"
 target = "https://www.uni-augsburg.de/de/fakultaet/mntf/math/fachschaft/"
@@ -365,6 +365,13 @@ target = "https://www.uni-augsburg.de/de/services/rechtssammlung/BSCMathInf/"
 [[section]]
 title = "Fachschaft Informatik (asinf)"
 title_en = "Students' Association for Computer Science (asinf)"
+
+[[section.link]]
+desc = "Unsere website"
+desc_en = "Our website"
+source = "/fachschaft-info"
+target = "https://fachschaft-info.de"
+
 [[section.link]]
 desc = "Awareness"
 source = "/awareness"
@@ -372,21 +379,25 @@ target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/studierendenve
 
 [[section.link]]
 desc = "Erstiheft Informatik"
+desc_en ="Freshmen Booklet (german)"
 source = "/erstiheft"
 target = "https://fachschaft-info.de/erstiheft.pdf"
 
 [[section.link]]
 desc = "Anmeldung Kneipentour"
+desc_en = "Pub crawl registration"
 source = "/kneipentour"
 target = "https://forms.gle/nYCorjSTnEbD33d6A"
 
 [[section.link]]
-desc = "Anmeldung Scotland Yard (Keine Anmeldung notwendig)"
+desc = "Anmeldung Scotland Yard"
+desc_en "Scotland Yard registration"
 source = "/scotlandyard"
 target = ""
 
 [[section.link]]
 desc = "Uni Augsburg Meisterschaft in Mario Kart 8 Deluxe"
+dasc_en = "University Championship in Mario Kart 8 Deluxe"
 source = "/mariokart"
 target = "https://fachschaft-info.de/mariokart/"
 
