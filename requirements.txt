@@ -12,4 +12,4 @@ rcssmin==1.1.1
 regex==2023.6.3
 requests==2.32.4
 toml==0.10.2
-urllib3==1.26.19
+urllib3==2.5.0
