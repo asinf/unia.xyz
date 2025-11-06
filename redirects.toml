@@ -366,6 +366,12 @@ target = "https://www.uni-augsburg.de/de/services/rechtssammlung/BSCMathInf/"
 title = "Fachschaft Informatik (asinf)"
 title_en = "Students' Association for Computer Science (asinf)"
 [[section.link]]
+desc = "Webseite"
+desc_en = "Website"
+source = "/asinf"
+target = "fachschaft-info.de"
+
+[[section.link]]
 desc = "Awareness"
 source = "/awareness"
 target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/studierendenvertretung/awareness/"
