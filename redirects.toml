@@ -134,6 +134,11 @@ source_en = "/counselling"
 target = "https://www.uni-augsburg.de/de/studium/organisation-beratung/beratung/"
 target_en = "https://www.uni-augsburg.de/en/studium/organisation-beratung/beratung/"
 
+[[section.link]]
+desc = "Awareness"
+source = "/awareness"
+target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/studierendenvertretung/awareness/"
+
 
 [[section]]
 title = "1. Semester"
@@ -370,11 +375,6 @@ desc = "Webseite"
 desc_en = "Website"
 source = "/asinf"
 target = "fachschaft-info.de"
-
-[[section.link]]
-desc = "Awareness"
-source = "/awareness"
-target = "https://www.uni-augsburg.de/de/fakultaet/fai/informatik/studierendenvertretung/awareness/"
 
 [[section.link]]
 desc = "Erstiheft Informatik"
