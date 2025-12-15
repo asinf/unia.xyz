@@ -20,6 +20,8 @@ If your Pull Request is accepted and merged into `main`, all changes will be aut
 
 Quickly hacked together, but it works. And it works in the following way:
 
+- Parse `./fonts.toml` and download the font files from the specified URLs.
+- Place the font files in the `fonts` directory.
 - Parse `./redirects.toml`.
 - Fetch Base CSS from jsdelivr. We are using [new.css](https://newcss.net).
 - Minify Custom CSS with rcssmin.
