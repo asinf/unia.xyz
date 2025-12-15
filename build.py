@@ -8,6 +8,7 @@ from jinja2 import Environment, FileSystemLoader, StrictUndefined
 from rcssmin import cssmin
 
 REDIRECTS_PATH = "redirects.toml"
+FONTS_PATH = "fonts.toml"
 
 TEMPLATE_FOLDER_PATH = "./template"
 TEMPLATE_HTML = "index.j2"
@@ -27,6 +28,20 @@ def parse_redirects():
     with open(REDIRECTS_PATH, "r", encoding="utf-8") as f:
         return toml.load(f)
 
+def fetch_from_gfonts():
+    fonts_path = os.path.join(OUTPUT_FOLDER_PATH, "fonts")
+    if not os.path.isdir(fonts_path):
+        os.mkdir(fonts_path)
+
+    with open(FONTS_PATH, "r", encoding="utf-8") as f:
+        fonts = toml.load(f)
+    
+    for font in fonts:
+        font_file = os.path.join(fonts_path, f"{font}.woff2")
+        res = requests.get(fonts[font])
+        res.raise_for_status()
+        with open(font_file, "wb") as f:
+            f.write(res.content)
 
 def process_css():
     with open(os.path.join(OUTPUT_FOLDER_PATH, NEW_CSS_MIN), "wb") as f:
@@ -72,6 +87,7 @@ def main():
     data = parse_redirects()
     if not os.path.isdir(OUTPUT_FOLDER_PATH):
         os.mkdir(OUTPUT_FOLDER_PATH)
+    fetch_from_gfonts()
     process_css()
     shutil.copyfile("favicon.svg", os.path.join(OUTPUT_FOLDER_PATH, "favicon.svg"))
     with open(
