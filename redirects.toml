@@ -384,7 +384,7 @@ target = "https://fachschaft-info.de/erstiheft.pdf"
 [[section.link]]
 desc = "Anmeldung Kneipentour"
 source = "/kneipentour"
-target = "https://forms.gle/nYCorjSTnEbD33d6A"
+target = "https://tickets.erstihuette.de/asinf/kneipentour-so26/"
 
 [[section.link]]
 desc = "Anmeldung Scotland Yard (Keine Anmeldung notwendig)"
