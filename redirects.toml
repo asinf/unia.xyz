@@ -397,3 +397,7 @@ source = "/mariokart"
 target = "https://fachschaft-info.de/mariokart/"
 
 
+[[section.link]]
+desc = "Augsburger Fachschaftentagung Winter 2026/27"
+source = "/aufata"
+target = "https://tickets.fachschaft-info.de/intern/aufata-26-27/"
