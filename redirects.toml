@@ -383,8 +383,9 @@ target = "https://fachschaft-info.de/erstiheft.pdf"
 
 [[section.link]]
 desc = "Anmeldung Kneipentour"
+desc_en = "Registration for the Pub Crawl"
 source = "/kneipentour"
-target = "https://tickets.erstihuette.de/asinf/kneipentour-so26/"
+target = "https://tickets.fachschaft-info.de/asinf/kneipenwise26/"
 
 [[section.link]]
 desc = "Anmeldung Scotland Yard (Keine Anmeldung notwendig)"
